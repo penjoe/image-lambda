@@ -1,0 +1,11 @@
+{
+  "name": "image-lambda",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:penjoe/image-lambda.git",
+  "author": "Joe Pennock <pennockjoe@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "aws-sdk": "^2.1033.0"
+  }
+}

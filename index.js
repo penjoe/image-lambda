@@ -39,7 +39,7 @@ let params = {"Bucket": 'image-lambda-jp', "Key": 'uuid', "Body": "", "contentTy
 
   const response = {
     statusCode: 200,
-    body: JSON.stringify('Hello world')
+    body: JSON.stringify('Hello world!!!')
   }
   return response;
 };

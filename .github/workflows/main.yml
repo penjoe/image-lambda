@@ -1,9 +1,9 @@
-name: deploy-lambda
+name: Deploy
 
 on:
   push:
     branches:
-    -master
+    - master
 
 jobs:
   deploy_lambda:
@@ -16,5 +16,5 @@ jobs:
       - name: npm install
         env:
           CI: true
-        run:
+        run: |
           npm ci

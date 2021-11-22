@@ -25,9 +25,6 @@ jobs:
         run: |
           npm ci
       - name: deploy
-          run: |
+        run: |
           zip -r image-lambda.zip *
           aws lambda update-function-code --function-name=image-lambda-func --zip-file=fileb://image-lambda.zip
-
-
-          
